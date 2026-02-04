@@ -152,9 +152,9 @@ with tab_exp:
             """)
         with col_img:
             try:
-                st.image("doc_gsa.jpg", caption="Marketing Strategy Meeting", use_container_width=True)
+                st.image("doc_gsa.JPG", caption="Marketing Strategy Meeting", use_container_width=True)
             except:
-                st.info("📸 (Please provide file 'doc_gsa.jpg')")
+                st.info("📸 (Please provide file 'doc_gsa.JPG')")
 
     # --- 2. FSA (DOCUMENTATION) ---
     with st.container(border=True):
@@ -170,9 +170,9 @@ with tab_exp:
             """)
         with col_img:
             try:
-                st.image("doc_fsa.jpg", caption="Documentation Duty at FSA", use_container_width=True)
+                st.image("doc_fsa.JPG", caption="Documentation Duty at FSA", use_container_width=True)
             except:
-                st.info("📸 (Please provide file 'doc_fsa.jpg')")
+                st.info("📸 (Please provide file 'doc_fsa.JPG')")
 
     # --- 3. MTsN 2 BEKASI (TEACHER/ADMIN) ---
     with st.container(border=True):
@@ -201,17 +201,17 @@ with tab_visual:
     
     with col_a:
         try:
-            st.image("foto1.jpg", caption="Shot 1")
-            st.image("foto2.jpg", caption="Shot 2")
+            st.image("foto1.JPG", caption="Shot 1")
+            st.image("foto2.JPG", caption="Shot 2")
         except:
-            st.error("File foto1.jpg / foto2.jpg not found.")
+            st.error("File foto1.JPG / foto2.JPG not found.")
             
     with col_b:
         try:
-            st.image("foto3.jpg", caption="Shot 3")
-            st.image("foto4.jpg", caption="Shot 4")
+            st.image("foto3.JPG", caption="Shot 3")
+            st.image("foto4.JPG", caption="Shot 4")
         except:
-            st.error("File foto3.jpg / foto4.jpg not found.")
+            st.error("File foto3.JPG / foto4.JPG not found.")
 
     st.divider()
     
@@ -219,4 +219,5 @@ with tab_visual:
     # st.success("Want to see full resolution and more collections?")
     # st.link_button("📂 Open Full Gallery (Google Drive)", "https://drive.google.com/drive/u/0/")
     
+
     st.info("More collections coming soon! Stay tuned. 📸")
